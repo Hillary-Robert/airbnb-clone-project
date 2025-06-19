@@ -70,15 +70,15 @@ Visit the Figma file for this project: **[Insert Figma link here]**
 
 #### Color Styles
 
-- **Primary**: `#FF5A5F`
-- **Secondary**: `#008489`
+- **Primary**: `#34967C`
+- **Secondary**: `#FFA800`
 - **Background**: `#FFFFFF`
-- **Text**: `#222222`
-- **Secondary Text**: `#717171`
+- **Text**: `#161117`
+- **Secondary Text**: `#161117`
 
 #### Typography
 
-- **Font Family**: Circular  
+- **Font Family**: Quicksand 
 - **Headings**:  
   - Bold (700), 24px–32px  
 - **Body Text**:  
