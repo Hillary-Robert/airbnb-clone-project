@@ -68,12 +68,28 @@ The UI/UX design of this project is guided by the following objectives:
 
 ### Design Specs (from Figma)
 
-- **Primary Color**: `#FF5A5F`
-- **Secondary Color**: `#008489`
-- **Typography**: Circular Font  
-  - Headings: Bold (700), 24–32px  
-  - Body Text: Medium (500), 16px  
-  - Secondary: Book (400), 14px
+Visit the Figma file for this project: **[Insert Figma link here]**
+
+#### Color Styles
+
+- **Primary**: `#FF5A5F`
+- **Secondary**: `#008489`
+- **Background**: `#FFFFFF`
+- **Text**: `#222222`
+- **Secondary Text**: `#717171`
+
+#### Typography
+
+- **Font Family**: Circular  
+- **Headings**:  
+  - Font Weight: Bold (700)  
+  - Font Size: 24px–32px  
+- **Body Text**:  
+  - Font Weight: Medium (500)  
+  - Font Size: 16px  
+- **Secondary Text**:  
+  - Font Weight: Book (400)  
+  - Font Size: 14px  
 
 ---
 
@@ -100,22 +116,24 @@ By focusing on clear navigation, fast interactions, accessible interfaces, and c
 
 ---
 
+### Importance of Identifying Design Properties in a Mockup
+
+Understanding and identifying the design properties in a Figma mockup ensures smooth communication between designers and developers. It allows for accurate implementation of UI elements and helps build a scalable, consistent user interface.
+
+Benefits include:
+
+- **Consistency**: Uniform use of colors, fonts, and spacing throughout the app.
+- **Developer Clarity**: Developers can easily translate designs into code with precise specs.
+- **Accessibility Compliance**: Proper font sizes and contrast ratios improve usability.
+- **Scalable Design System**: Encourages reusable components and modular design.
+- **Faster Handoff**: Reduces ambiguity and shortens feedback loops during development.
+
+---
+
 ## Pages
 
 | Page              | Description                                                  |
 |-------------------|--------------------------------------------------------------|
 | Property Listing  | Grid of available properties with search and filters         |
 | Property Detail   | Full details with gallery, price, host info, and booking     |
-| Checkout          | Simple and secure booking form with confirmation step        |
-
----
-
-## Component Patterns
-
-- **Navbar**: Logo, search bar, user menu, responsive navigation
-- **Property Card**: Image, location, price, ratings, favorite button
-- **Footer**: Links, about, social media, copyright
-
-Each component is reusable, responsive, and consistent across the app.
-
----
+| Checkout          | Simple and secure booking form with confirmation step
