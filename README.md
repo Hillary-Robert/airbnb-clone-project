@@ -117,10 +117,11 @@ Looking at the colors, fonts, and spacing in a Figma mockup helps everyone on th
 
 Why it matters:
 
-- Keeps everything looking the same
-- Helps developers build things correctly
-- Makes the site easier to use for everyone
-- Speeds up teamwork and makes feedback faster
+- **Consistency**: Everything looks the same everywhere
+- **Developer Clarity**: Developers know exactly what to build
+- **Accessibility**: Proper fonts and colors help all users
+- **Reusable Design**: Easier to use components in more places
+- **Faster Handoff**: Speeds up teamwork and testing
 
 ---
 
@@ -134,13 +135,30 @@ Why it matters:
 
 ---
 
-## Component Patterns
+## UI Component Patterns
 
-- **Navbar**: Has the logo, search bar, user menu, and works well on all screen sizes
-- **Property Card**: Shows an image, price, location, and lets users favorite listings
-- **Footer**: Contains links, company info, and social media
+In this project, we will build and reuse different parts of the user interface called components. These components help keep the design clean and make the code easier to manage.
 
-All components are made to be reused and work the same across all pages.
+### Navbar
+
+- This will be at the top of every page.
+- It will include the **logo**, **search bar**, and **user navigation** (like login, profile, or bookings).
+- The navbar will change size or layout depending on the screen size (responsive).
+
+### Property Card
+
+- These cards will show each property on the listing page.
+- Each card will include a **property image**, **title**, **location**, **price per night**, and **rating**.
+- It may also include a **heart icon** to let users save their favorites.
+- These cards will adjust automatically to fit different screen sizes.
+
+### Footer
+
+- This will be at the bottom of every page.
+- It will include **useful links**, **about the company**, and **social media icons**.
+- It gives users quick access to important pages and information.
+
+Each component will be made in a way that it can be reused across the website. This helps us keep the design consistent and makes updates easier later on.
 
 ---
 
