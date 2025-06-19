@@ -40,14 +40,31 @@ This project is a comprehensive full-stack clone of Airbnb. The goal is to creat
 
 ---
 
-## UI/UX Design
+## UI/UX Design Planning
 
 ### Design Goals
 
+The UI/UX design of this project is guided by the following objectives:
+
 - Create an intuitive and frictionless booking flow
-- Ensure mobile responsiveness and accessibility
-- Maintain consistent color scheme and typography
-- Optimize for fast performance and usability
+- Maintain visual consistency across all components and pages
+- Ensure fast loading times and optimized performance
+- Prioritize mobile responsiveness for seamless cross-device experiences
+- Design with accessibility in mind to accommodate all users
+
+---
+
+### Key Features to Implement
+
+- A responsive and clean navigation bar with search capability
+- Property listing cards with images, ratings, prices, and favorite functionality
+- A property detail view with photo gallery, host details, amenities, and booking form
+- A simple and secure checkout process
+- Clear and accessible authentication flow (sign-up, login)
+- Consistent use of branding elements: colors, typography, and layout
+- Error handling and user feedback (loading states, validation messages)
+
+---
 
 ### Design Specs (from Figma)
 
@@ -57,6 +74,29 @@ This project is a comprehensive full-stack clone of Airbnb. The goal is to creat
   - Headings: Bold (700), 24–32px  
   - Body Text: Medium (500), 16px  
   - Secondary: Book (400), 14px
+
+---
+
+### Primary Pages
+
+| Page                   | Description                                                                 |
+|------------------------|-----------------------------------------------------------------------------|
+| Property Listing View  | Grid display of available properties with filters such as location, price, etc. |
+| Listing Detailed View  | Comprehensive property page with high-res images, full description, pricing, amenities, host info, and booking form. |
+| Simple Checkout View   | Streamlined checkout page with selected property info, payment details, and booking confirmation. |
+
+---
+
+### Importance of User-Friendly Design
+
+A user-friendly design is essential in a booking system to reduce friction during the user's journey and to increase the likelihood of conversion. When users can easily find listings, understand the offerings, and complete their bookings without confusion or frustration, it directly leads to:
+
+- Higher trust and credibility
+- Increased booking completions
+- Lower bounce and drop-off rates
+- Improved overall user satisfaction
+
+By focusing on clear navigation, fast interactions, accessible interfaces, and clean layouts, the application ensures a pleasant experience that encourages users to return and recommend the platform.
 
 ---
 
@@ -70,9 +110,6 @@ This project is a comprehensive full-stack clone of Airbnb. The goal is to creat
 
 ---
 
-
----
-
 ## Component Patterns
 
 - **Navbar**: Logo, search bar, user menu, responsive navigation
@@ -82,6 +119,3 @@ This project is a comprehensive full-stack clone of Airbnb. The goal is to creat
 Each component is reusable, responsive, and consistent across the app.
 
 ---
-
-
-
